@@ -18,7 +18,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - aws cloudformation create-stack --stack-name s3blog --template-body cloudformation.yml
+      #- aws cloudformation create-stack --stack-name s3blog --template-body cloudformation.yml
       #- mvn install
     finally:
       - echo This always runs even if the install command fails
