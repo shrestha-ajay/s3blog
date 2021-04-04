@@ -1,8 +1,0 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Description: Creats an S3 bucket
-
-Resources:
- # Create the VPC with subnets across 2 Availability Zones, 2 Public subnets, 2 Private subnets, 
- # an Internet Gateway, 2 Nat Gateways and the required routetables and routes
-  S3:
-    Type: AWS::S3::Bucket
