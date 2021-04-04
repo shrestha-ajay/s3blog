@@ -4,4 +4,4 @@
 
 layout: home
 ---
-This is a test
+Welcome to Ajay's blog!
